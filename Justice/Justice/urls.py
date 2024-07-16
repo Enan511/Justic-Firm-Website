@@ -21,7 +21,5 @@ from home import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name='home'),
-    path('home2',views.home, name='home2'),
-    path('home3',views.home, name='home3'),
-    path('home4',views.home, name='home4'),
+    path('news',views.news, name='news'),
 ]
